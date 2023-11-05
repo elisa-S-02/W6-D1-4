@@ -158,9 +158,8 @@ const readInput = function () {
       // resoults.innerHTML += "<il>" + jobs.title + "</il>";
 
       resoults.innerHTML += `<li> ${job.title}<br/>${job.location} </li>`;
-      input.value = "";
-      input2.value = "";
-      //error.style = "visibility:hidden";
+
+      error.style = "visibility:hidden";
     }
   }
 };
