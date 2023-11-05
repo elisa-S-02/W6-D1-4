@@ -1,0 +1,43 @@
+
+body{
+      background-color:#089886;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      margin-right: 40%;
+      
+}
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center; 
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+/* .allJobs{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+.search{
+    text-align: center;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+input{
+    height: 25px;
+    border-radius: 15px;
+}
+button{
+    height: 25px;
+    border-radius: 15px;
+  
+}
+
+img{
+    height: 50%;
+}
